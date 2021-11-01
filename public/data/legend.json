@@ -7,9 +7,9 @@
   },
   {
     "group_id": 1,
-    "color": "red",
+    "color": "blue",
     "text": "Подразделение 2",
-    "counter": 4
+    "counter": 6
   },
   {
     "group_id": 2,
@@ -19,8 +19,8 @@
   },
   {
     "group_id": 3,
-    "color": "aquamarine",
+    "color": "deeppink",
     "text": "Подразделение 4",
-    "counter": 3
+    "counter": 2
   }
 ]

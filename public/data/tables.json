@@ -31,7 +31,7 @@
         "_id": 4,
         "x": 22,
         "y": 28,
-        "group_id": 2,
+        "group_id": 1,
         "rotate": 80
     },
     {
@@ -41,11 +41,12 @@
         "group_id": 1,
         "rotate": 80
     },
+
     {
         "_id": 6,
         "x": 14,
         "y": 40,
-        "group_id": 3,
+        "group_id": 1,
         "rotate": 80
     },
     {
@@ -62,6 +63,7 @@
         "group_id": 0,
         "rotate": 80
     },
+
     {
         "_id": 9,
         "x": 80,
