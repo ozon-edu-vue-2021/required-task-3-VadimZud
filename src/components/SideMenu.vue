@@ -106,6 +106,9 @@ export default {
       this.$emit("update:isUserOpenned", false);
     },
     makeChart() {
+      if (this.isUserOpenned) {
+        return;
+      }
       const legendChartData = {
         labels: this.legend.map((it) => it.text),
         datasets: [
@@ -123,7 +126,6 @@ export default {
           display: false,
         },
       };
-
       this.$refs.chart.renderChart(legendChartData, options);
       this.formatedDate = format(new Date(), "dd.MM.yyyy hh:mm");
     },
