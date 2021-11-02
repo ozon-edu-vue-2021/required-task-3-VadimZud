@@ -69,7 +69,7 @@ h3 {
 
 .office {
   display: grid;
-  grid-template-columns: 1fr 320px;
+  grid-template-columns: 1fr 450px;
   border-radius: 6px;
   border: 1px solid #ccd8e4;
   height: 100%;

@@ -6,10 +6,12 @@
           <h3>Информация</h3>
         </template>
         <template v-else>
-          <div class="action">
-            <div class="arrow" @click="closeProfile"></div>
-          </div>
           <h3>Профиль</h3>
+          <div class="action">
+            <div @click="closeProfile">
+              <span class="material-icons"> close </span>
+            </div>
+          </div>
         </template>
       </div>
       <div class="toolbar__actions"></div>
@@ -155,7 +157,9 @@ export default {
 .toolbar__header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   margin-bottom: 12px;
+  width: 100%;
 }
 
 .toolbar__header .action {
